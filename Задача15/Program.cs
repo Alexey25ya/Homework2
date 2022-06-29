@@ -3,8 +3,8 @@
 //и проверяет, является ли этот день выходным
 
 Console.WriteLine ("Введите цифру от 1 до 7, соответствующую дню недели");
-int n = Convert.ToInt32(Console.ReadLine());
-string week()
+int n1 = Convert.ToInt32(Console.ReadLine());
+string week(int n)
 {
    if (n>5 && n<8)
    {
@@ -19,4 +19,4 @@ string week()
     return ("не существует дня недели, соответствующему числу "+n);
    }
 }
-   Console.WriteLine(week());
+   Console.WriteLine(week(n1));

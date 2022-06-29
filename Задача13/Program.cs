@@ -4,8 +4,8 @@
 
 
 Console.WriteLine ("введите число");
-int num = Convert.ToInt32(Console.ReadLine());
-string showNumber()
+int num1 = Convert.ToInt32(Console.ReadLine());
+string showNumber(int num)
 {
    int i = 0;
    int n=num;
@@ -25,4 +25,4 @@ string showNumber()
    return ("третья цифра числа->"+third);
    }
 }
-   Console.WriteLine(showNumber());
+   Console.WriteLine(showNumber(num1));
